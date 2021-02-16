@@ -1,0 +1,33 @@
+html {
+    font-size: 20px; /* Schriftgröße 10 Pixel */
+    font-family: "Lobster", cursive;
+    background-color: #99ccff;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #99ccff;
+    text-shadow: 3px 3px 1px black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p, li{
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ffccff;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
