@@ -37,3 +37,9 @@ myButton.onclick = function ()
 {
     setUserName();
 }
+
+//var nachObenButton = document.getElementById("nachOben");
+document.getElementById("nachOben").onclick = function ()
+{
+    scrollTo(0,0);
+}
