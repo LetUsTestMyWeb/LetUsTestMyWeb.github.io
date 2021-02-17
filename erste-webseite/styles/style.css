@@ -9,25 +9,110 @@ h1{
     text-align: center;
     margin: 0;
     padding: 20px 0;
-    color: #99ccff;
+    color: white;
     text-shadow: 3px 3px 1px black;
 }
 
 img {
     display: block;
     margin: 0 auto;
+    border-radius: 1em;
 }
 
-p, li{
-    font-size: 15px;
+p, li, ul, ol{
+    font-size: 20px;
     line-height: 2;
     letter-spacing: 1px;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
 }
 
 body{
-    width: 600px;
-    margin: 0 auto;
-    background-color: #ffccff;
+    width: 1500px;
+    margin: 50px auto;
+    background-color: #87c4e5;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
 }
+
+header{
+    margin: 20px;
+}
+
+#nav-site{
+    text-align: center;
+    margin: 20px;
+}
+
+#nav-site ul, #nav-site li{
+    display: inline;
+    padding: 10px;
+    font-size: 40px;
+    color: midnightblue;
+}
+
+section{
+    border-top: 2px solid black;
+    padding: 20px;
+}
+
+a:visited{
+    color: blue;
+}
+#nav-site a, #nav-site a:visited, #nav-site a:link{
+    text-decoration: none;
+    color: black;
+}
+#nav-site a:hover{
+    color: red;
+}
+a:hover{
+ color: yellow;
+    text-decoration: none;
+}
+input[type="search"], input[type="submit"]
+{
+    height: 0.5cm;
+    width: auto;
+    font-size: 0.35cm;
+    border-radius: .5em;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+input[type="submit"]:hover
+{
+    background-color: lightgreen;
+}
+#text1
+{
+    display: inline-block;
+    margin: 20px  20vmax;
+    background-color: greenyellow;
+    border-radius: 0.5em;
+    padding: 1em;
+    opacity: 0.6;
+}
+
+button{
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    font-size: 0.4cm;
+    background-color: lightcyan;
+    border-radius: 0.5em;
+    border: 1px solid black;
+    margin: 0.5em 10vmax;
+}
+button:hover
+{
+    background-color: lightgreen;
+}
+
+
+
+
+
+
+
