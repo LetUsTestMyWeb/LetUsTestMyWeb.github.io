@@ -1,0 +1,4 @@
+AuthUserFile LetUsTestMyWeb.github.io/erste-webseite/.htpasswd
+AuthType Basic
+AuthName "My restricted Area"
+Require valid-user
